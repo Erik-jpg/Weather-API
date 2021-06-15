@@ -41,3 +41,19 @@ function getWeatherByCity(city) {
      return (Kelvin - 273.15) * 9/5 + 32
   };
 
+
+  //Don't forget to use backticks and ${} to allow the string to be changed.
+//Use daily weather to find the longitude and latitude
+// then use the one call to get all the other info
+//always invoke functions
+//deconstructing with const {lon, lat} = coords but write it out as const lat = coords.lat; and const lon = coords.lon;
+//try using function names to be the pseudo codes
+
+//check out async away (only use in the future).
+
+//criteria: 
+//search for a city and see the current and future forecast, then the city is added to the search history.
+//The name of searched city, the date, an icon representation of the weather conditions, temp, humidity, wind speed, and UV index.
+//The UV index is presented with a color that indicates whether the conditions are: favorable, moderate, or severe.
+//The future forecast is a 5-day forecast that displays the date, an icon of weather conditions, the temp, wind speeds, and humidity.
+//When I click on a city in the search history, the weather conditions are displayed.
